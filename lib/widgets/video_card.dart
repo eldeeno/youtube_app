@@ -43,7 +43,7 @@ class VideoCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
-                        'video title',
+                        'video.getVideoTitle()',
                         style: videoTitleStyle,
                       ),
                       Container(
